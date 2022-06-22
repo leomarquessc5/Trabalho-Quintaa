@@ -1,0 +1,107 @@
+[
+    {
+        "nome_escola" : "Pataxó",
+        "escola" : [
+        {
+            "name": "Katherine Turcotte",
+            "matricula": 46,
+            "id": "1",
+            "atividade_id": [
+                {
+                    "name": "Eddie Krajcik",
+                    "id": "1",
+                    "AlunoId": "1"
+                }
+            ],
+            "responsavel_id": [
+                {
+                    "name": "Deborah Blick",
+                    "aluno": "aluno 1",
+                    "id": "1",
+                    "AlunoId": "1"
+                }
+            ]
+        },
+        {
+            "name": "Elizabeth Welch",
+            "matricula": 51,
+            "id": "2",
+            "atividade_id": [
+                {
+                    "name": "Emmett Dooley",
+                    "id": "2",
+                    "AlunoId": "2"
+                }
+            ],
+            "responsavel_id": [
+                {
+                    "name": "Clay Sawayn",
+                    "aluno": "aluno 2",
+                    "id": "2",
+                    "AlunoId": "2"
+                }
+            ]
+        },
+        {
+            "name": "Mrs. Lela Lind",
+            "matricula": 11,
+            "id": "3",
+            "atividade_id": [
+                {
+                    "name": "Clyde Schiller",
+                    "id": "3",
+                    "AlunoId": "3"
+                }
+            ],
+            "responsavel_id": [
+                {
+                    "name": "Mrs. Winston Bogan",
+                    "aluno": "aluno 3",
+                    "id": "3",
+                    "AlunoId": "3"
+                }
+            ]
+        },
+        {
+            "name": "Arnold Towne",
+            "matricula": 8,
+            "id": "4",
+            "atividade_id": [
+                {
+                    "name": "Myrtle Walker",
+                    "id": "4",
+                    "AlunoId": "4"
+                }
+            ],
+            "responsavel_id": [
+                {
+                    "name": "Mrs. BLA Bogan",
+                    "aluno": "aluno 4",
+                    "id": "4",
+                    "AlunoId": "4"
+                }
+            ]
+        },
+        {
+            "name": "Myra Runolfsson",
+            "matricula": 19,
+            "id": "5",
+            "atividade_id": [
+                {
+                    "name": "Cornelius Wehner MD",
+                    "id": "5",
+                    "AlunoId": "5"
+                }
+            ],
+            "responsavel_id": [
+                {
+                    "name": "Mrs. BLA bla",
+                    "aluno": "aluno 5",
+                    "id": "5",
+                    "AlunoId": "5"
+                }
+            ]
+        }
+        ]
+    }
+]

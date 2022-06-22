@@ -1,0 +1,42 @@
+[
+    {
+        "artes": [
+            {
+                "nome": "Teatro",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Música",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Pintura",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Desenho",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            }
+        ]
+    },
+    {
+        "esportes": [
+            {
+                "nome": "Natação",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Futebol",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Vôlei",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            },
+            {
+                "nome": "Basquete",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis, minima recusandae temporibus consequuntur soluta! Voluptatibus error porro, ab cupiditate debitis eum non consectetur quasi autem, temporibus rerum alias repudiandae!"
+            }
+        ]
+    }
+]

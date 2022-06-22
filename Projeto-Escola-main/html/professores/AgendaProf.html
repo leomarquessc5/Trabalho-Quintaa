@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylecss/mainstyle.css">
+    <link rel="stylesheet" href="../stylecss/normalize.css">
+    <title>Portal Pataxó</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../aluno/Login.html">Login Acadêmico</a></li>
+                <li><a href="./LoginProfessores.html">Login Docentes</a></li>
+                <li><a href="../adm/loginadm.html">Administrativo</a></li>
+                <li><a href="../aluno/matricula.html">Matricule-se</a></li>
+            </ul>
+    </header>
+    <form action="agendaprof.html">
+        <fieldset>
+         <legend>Incluir:</legend>
+         <label for="Prova">Prova:</label>
+         <input type="radio" id="Prova" name="Prova" value="Prova"> <br>
+
+         <label for="Trabalho">Trabalho:</label>
+         <input type="radio" id="Trabalho" name="Prova" value="trabalho"> <br>
+
+         <label for="trabex">Trabalho extra</label>
+         <input type="radio" id="trabex" name="Prova" value="trabex"><br>
+         
+         <label for="trabex">Incluir material</label>
+         <input type="radio" id="trabex" name="Prova" value="trabex"><br>
+
+        <p> Matéria</p>
+         <select name="materia" id="materia">
+            <option value="Matemática">Matemática</option>
+            <option value="Portugues">Português</option>
+            <option value="Ciências">Ciências</option>
+            <option value="História">História</option>
+            <option value="Geografia">Geografia</option>
+            <option value="Artes">Artes</option>
+            <option value="Inglês">Inglês</option>
+            <option value="Educação Física">Educação Física</option>
+        </select> <br>
+
+         <!-- <label for="Texto">Insira a informação</label> <br>
+         <input type="text" name="" id="" class="agendat"><br> -->
+
+         <label for="corpoemail">Conteúdo</label> <br>
+         <textarea  name="corpoemail"  id="corpoemail"class="corpoemail" rows="8" cols="150"></textarea> <br>
+
+         <input type="file"> <br>
+
+         <label for="data">Data de inclusão:</label>
+         <input type="date" id="data" name="data"><br>
+
+         <label for="data">Data da entrega:</label>
+         <input type="date" id="data" name="data"><br><br>
+         
+         <input type="submit">
+        </fieldset>
+       </form>
+</body>
+</html>

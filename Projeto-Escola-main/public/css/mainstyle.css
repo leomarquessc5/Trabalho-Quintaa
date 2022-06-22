@@ -1,0 +1,618 @@
+body {
+    color: rgb(3, 3, 84);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(94, 153, 94);
+    text-align: center;
+}
+
+h4,
+h2 {
+    color: rgb(222, 99, 54);
+}
+
+.headerimg {
+    max-width: 200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+li {
+    text-align: center;
+}
+
+.maincontainer {
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    text-align: justify;
+}
+
+.conthead {
+    grid-column: 1/ span 3;
+    text-align: center;
+    color: rgb(222, 99, 54);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+}
+
+.maincont {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+}
+
+.side1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+
+}
+
+.a1 {
+    grid-column: 1/ span 4;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+}
+
+.a2 {
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    grid-column: 1/ span 4;
+}
+
+aside {
+    grid-column: 1 / span 4;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+    box-shadow: 0 2px 2px 2px rgb(3, 3, 84);
+    color: rgb(222, 99, 54);
+    font-weight: lighter;
+}
+
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    border-top: 3px solid orange;
+    box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.5);
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+    color: rgb(3, 3, 84);
+    display: block;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: green;
+    transition: .5s;
+}
+
+.botao {
+    grid-column: 1/span3;
+    text-align: center;
+}
+
+
+.el {
+    background-color: white;
+    color: rgb(3, 3, 84);
+    font-weight: lighter;
+}
+
+.mensagem {
+    grid-column: 1/span3;
+    border: 1px solid rgb(222, 99, 54);
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.resposta {
+    border-color: rgb(94, 153, 94);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.mensagem img.imgm {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 0;
+    border-radius: 50%;
+}
+
+.resposta img.imgr {
+    float: right;
+    max-width: 60px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0;
+    border-radius: 50%;
+}
+
+.horam {
+    float: right;
+    font-weight: lighter;
+}
+
+.horar {
+    float: left;
+    font-weight: lighter;
+}
+
+.chat {
+    background-color: rgb(209, 242, 209);
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-column: 1/span3;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.responder {
+    grid-column: 1/span3;
+    grid-template-columns: repeat(1, 5fr);
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: grid;
+    gap: 10px;
+}
+
+.enviar {
+    grid-column: 5/span5;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.digitar {
+    grid-column: 1/span4;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.nomechatm {
+    text-align: right;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+.nomechat {
+    text-align: left;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.contlogin {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat (4, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+.logintitle {
+    grid-column: 1/4;
+    grid-row: 1;
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.userlogina {
+    background-color: rgb(247, 192, 90);
+    text-align: center;
+
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+    grid-row: 2;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 21px;
+}
+
+.user {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.password {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.buttonlogin {
+    display: block;
+    margin: 3px auto 3px auto;
+    position: relative;
+}
+
+.forgotpass {
+    display: block;
+    margin: 3px auto 3px auto;
+    position: relative;
+}
+
+.newuser {
+    display: block;
+    margin: 3px auto 3px auto;
+    position: relative;
+}
+
+.inputlogin {
+    margin: 3px;
+}
+
+.mainmatricula {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat (4, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+.matriculacont {
+    background-color: rgb(247, 192, 90);
+    align-items: center;
+    display: grid;
+    margin: 10px;
+    grid-row: 2;
+    padding: 10px;
+    border-radius: 21px;
+}
+
+.enviararquivo {
+    margin: auto;
+}
+
+.efmatricula {
+    margin: 10px auto 10px auto;
+}
+
+.mainaluno {
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    text-align: justify;
+}
+
+.headeraluno {
+    grid-column: 2/ span 3;
+    text-align: center;
+    color: rgb(222, 99, 54);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+}
+
+.footeraluno {
+    grid-column: 1 / span 5;
+    text-align: center;
+}
+
+.calendarioaluno {
+    grid-column: 2;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.chatlink {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.atextras {
+    grid-column: 4;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.conteudoalunos {
+    grid-column: 2;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.conteudoalunos1 {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.paisfinanceiro {
+    grid-column: 4;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.paisfrequencia {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.blank3 {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.blank4 {
+    grid-column: 4;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.contatatoacademico {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.linkportal {
+    position: relative;
+    bottom: 5px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.agendat {
+    padding-right: 50%;
+    padding-block: 5%;
+}
+
+fieldset {
+    line-height: 3;
+}
+
+.contemail {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat (4, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+.mainemail {
+    background-color: rgb(247, 192, 90);
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+    grid-row: 2;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 21px;
+}
+
+.corpoemail {
+    width: 400px;
+    min-height: 100px;
+    writing-mode: vertical-rl;
+}
+
+.faltas {
+    background-color: rgb(247, 192, 90);
+    align-items: center;
+    display: inline-block;
+    margin: auto 50px auto 50px;
+    grid-row: 2;
+    padding: 10px 100px 10px 100px;
+    justify-content: flex-end;
+    border-radius: 21px;
+}
+
+/* css leo */
+.contatarpai {
+    position: relative;
+    bottom: 5px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contsms {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat (4, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+.mainsms {
+    background-color: rgb(247, 192, 90);
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+    grid-row: 2;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 21px;
+}
+
+.corposms {
+    width: 400px;
+    min-height: 100px;
+    writing-mode: vertical-rl;
+}
+
+.btn_emailp {
+    position: relative;
+    bottom: 5px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn_edit {
+    position: relative;
+    float: left;
+}
+
+.ctrlfinanca {
+    grid-column: 3;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(94, 153, 94);
+    border-radius: 1px;
+    position: relative;
+}
+
+.escolhaaluno {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iea img {
+    max-width: 50px;
+    max-width: 50px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.principal {
+    width: 33%;
+    float: left;
+}
+
+.extras {
+    width: 33%;
+    float: left;
+}
+
+/* section article {
+    width: 33%;
+    float: left;
+} */
+
+/* section article {    
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+section article h3{    
+    margin-left: 2px;
+    margin-right: 9px;
+} */
+
+.aeArtes {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.aeEsportes {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.aeArtes h3{
+    margin-left: 2px;
+    margin-right: 9px;
+}
+
+.aeEsportes h3{
+    margin-left: 2px;
+    margin-right: 9px;
+}

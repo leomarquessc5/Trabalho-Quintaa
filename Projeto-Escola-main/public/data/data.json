@@ -1,0 +1,217 @@
+{
+    "escola": [
+        {
+            "agendaPrincipal": [
+                {
+                    "materia": "História",
+                    "atividade": "Prova",
+                    "data": "12/08/22"
+                },
+                {
+                    "materia": "Matemática",
+                    "atividade": "Prova",
+                    "data": "15/08/22"
+                },
+                {
+                    "materia": "Geografia",
+                    "atividade": "Prova",
+                    "data": "13/08/22"
+                },
+                {
+                    "materia": "Português",
+                    "atividade": "Prova",
+                    "data": "14/08/22"
+                },
+                {
+                    "materia": "Inglês",
+                    "atividade": "Trabalho",
+                    "data": "11/08/22"
+                },
+                {
+                    "materia": "Ciências",
+                    "atividade": "Trabalho",
+                    "data": "18/08/22"
+                }
+            ]
+        },
+        {
+            "agendaExtras": [
+                {
+                    "materia": "Música",
+                    "atividade": "Trabalho",
+                    "data": "11/08/22"
+                },
+                {
+                    "materia": "Artes",
+                    "atividade": "Trabalho",
+                    "data": "19/08/22"
+                },
+                {
+                    "materia": "Meio ambiente",
+                    "atividade": "Trabalho",
+                    "data": "19/08/22"
+                },
+                {
+                    "materia": "Artes",
+                    "atividade": "Prova",
+                    "data": "19/08/22"
+                },
+                {
+                    "materia": "Meio ambiente",
+                    "atividade": "Prova",
+                    "data": "19/08/22"
+                }
+            ]
+        },
+        {
+            "matriculas": [
+                {
+                    "aluno": "Julio Alves",
+                    "status": "Matriculado",
+                    "atividades_extras": "Matriculado"
+                },
+                {
+                    "aluno": "Joao Figueredo",
+                    "status": "Matriculado",
+                    "atividades_extras": "Matriculado"
+                },
+                {
+                    "aluno": "Gabriel Navarro",
+                    "status": "Matriculado",
+                    "atividades_extras": "Matriculado"
+                },
+                {
+                    "aluno": "Luiza Meireles",
+                    "status": "Matriculado",
+                    "atividades_extras": "Matriculado"
+                },
+                {
+                    "aluno": "Viviane Souza",
+                    "status": "Matriculado",
+                    "atividades_extras": "Matriculado"
+                }
+            ]
+        },
+        {
+            "alunos": [
+                {
+                    "nome": "Julio Alves",
+                    "faltas": "0/20",
+                    "notas":
+                        {
+                        "matematica": "10",
+                        "portugues": "9",
+                        "ingles": "6",
+                        "historia": "5",
+                        "geografia": "8",
+                        "ciencias": "8"
+                    },
+                    "atividade_extra":{
+                        "status": "APROVADO",
+                        "modalidade": "Música",
+                        "financeiro": "PAGO"
+                    }
+                    
+                },
+                {
+                    "nome": "Joao Figueredo",
+                    "faltas": "4/20",
+                    "notas":
+                        {
+                        "matematica": "8",
+                        "portugues": "7",
+                        "ingles": "8",
+                        "historia": "10",
+                        "geografia": "8",
+                        "ciencias": "8"
+                    },
+                    "atividade_extra":{
+                        "status": "APROVADO",
+                        "modalidade": "Música",
+                        "financeiro": "PAGO"
+                    }
+                    
+                },
+                {
+                    "nome": "Gabriel Navarro",
+                    "faltas": "16/20",
+                    "notas":
+                        {
+                        "matematica": "6",
+                        "portugues": "9",
+                        "ingles": "8",
+                        "historia": "9",
+                        "geografia": "8",
+                        "ciencias": "10"
+                    },
+                    "atividade_extra":{
+                        "status": "APROVADO",
+                        "modalidade": "Arte",
+                        "financeiro": "PAGO"
+                    }
+                    
+                },
+                {
+                    "nome": "Luiza Meireles",
+                    "faltas": "8/20",
+                    "notas":
+                        {
+                        "matematica": "8",
+                        "portugues": "9",
+                        "ingles": "8",
+                        "historia": "7",
+                        "geografia": "7",
+                        "ciencias": "8"
+                    },
+                    "atividade_extra":{
+                        "status": "APROVADO",
+                        "modalidade": "Meio Ambiente",
+                        "financeiro": "PAGO"
+                    }
+                    
+                },
+                {
+                    "nome": "Viviane Souza",
+                    "faltas": "0/20",
+                    "notas":
+                        {
+                        "matematica": "7",
+                        "portugues": "7",
+                        "ingles": "6",
+                        "historia": "8",
+                        "geografia": "8",
+                        "ciencias": "8"
+                    },
+                    "atividade_extra":{
+                        "status": "APROVADO",
+                        "modalidade": "Música",
+                        "financeiro": "PAGO"
+                    }
+                    
+                }
+            ]
+        },
+        {
+            "emails": [
+                {
+                    "data": "20/06/2022 08:34",
+                    "nome": "Ana",
+                    "desc": "Bom dia, meu filho está sofrendo bullying"
+                },
+                {
+                    "data": "22/06/2022 09:01",
+                    "nome": "Marcos",
+                    "desc": "Bom dia, quando começará a semana de provas?"
+                },
+                {
+                    "data": "22/06/2022 18:01",
+                    "nome": "Julio",
+                    "desc": "Bom dia, quero mudar a data de vencimento."
+                }
+            ]
+        }
+
+    ]
+
+    
+}

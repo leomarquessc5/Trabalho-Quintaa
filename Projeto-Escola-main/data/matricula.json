@@ -1,0 +1,51 @@
+[
+    {
+        "matriculas": [
+            {
+                "aluno": "1",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "2",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "3",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "4",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "5",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "6",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "7",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "8",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            },
+            {
+                "aluno": "9",
+                "status": "Matriculado",
+                "atividades_extras": "Matriculado"
+            }
+        ]
+    }
+]

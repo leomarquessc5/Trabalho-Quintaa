@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "node-fetch": "^3.2.6"
+  },
+  "scripts": {
+    "start": "json-server --watch public/data/data.json"
+  }
+}
